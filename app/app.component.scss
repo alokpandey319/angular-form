@@ -1,0 +1,49 @@
+.col-sm-6{
+    display: flex;
+    height: 100%;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    min-height: 80vh;
+    
+
+    form{
+        div{
+            margin: 10px 5px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            label{
+                margin:3px;
+            }
+            small{
+                font-size: 10px;
+                margin: 5px 2px;
+
+
+            }
+            input{
+                border: none;
+                border-radius: 5px;
+                padding: 5px 3px;
+                
+            }
+        }
+        .error{
+            color: #a15;
+
+        }
+        border-radius: 10px;
+        background: #57a;
+        padding: 20px;
+    }
+    h1{
+        color: hsl(128, 93%, 39%);
+    }
+ 
+        
+
+    }
+
+
+
